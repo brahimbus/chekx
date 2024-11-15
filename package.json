@@ -1,0 +1,18 @@
+{
+    "name": "user-visits",
+    "version": "1.0.0",
+    "description": "A simple app to track user visits using Netlify Functions",
+    "main": "functions/visit.js",
+    "scripts": {
+      "start": "netlify dev", 
+      "build": "echo 'No build process' && exit 0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "netlify-cli": "^3.9.0"
+    },
+    "netlify": {
+      "functions": "functions"
+    }
+  }
+  
